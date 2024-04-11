@@ -16,7 +16,7 @@ namespace Automatic_Head_Serial_Reader
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Main_User_UI());
         }
     }
 }
