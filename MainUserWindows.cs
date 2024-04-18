@@ -21,14 +21,18 @@ namespace Automatic_Head_Serial_Reader
         private void Form1_Load(object sender, EventArgs e)
         {
             Text = "Automatic Head Serial Reader";
-            this.Size = new System.Drawing.Size(565,725);
             BackColor = Color.FromArgb(51,51,51);
 
         }
 
         private void PictMain_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void PctPlay(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
         }
     }
 }

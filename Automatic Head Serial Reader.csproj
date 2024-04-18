@@ -110,5 +110,14 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainTGreenPlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedLogoTparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedLogoT.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
